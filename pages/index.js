@@ -25,7 +25,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          My objective is to obtain a Software Engineer position.
+          My objective is to obtain a Frontend developer position.
           <br/> Where my technical and communication skills will contribute 
           <br/>to the success of your department and my personal growth.
           <br/>Interested in becoming a professional in IT-world.
