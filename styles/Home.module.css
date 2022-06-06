@@ -54,6 +54,7 @@
   margin: 4rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
+
 }
 
 .code {
@@ -103,8 +104,15 @@
   line-height: 1.5;
 }
 
+
+.link {
+  text-decoration: underline;
+  font-weight: 700;
+}
+
 .logo {
   height: 1em;
+  font-size: 3em;
   margin-left: 0.5rem;
 }
 
