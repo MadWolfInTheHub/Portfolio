@@ -17,8 +17,8 @@ export default function Home() {
           priority
           src="/images/profile.jpg"
           className={utilStyles.borderCircle}
-          height={144}
-          width={144}
+          height={288}
+          width={200}
           alt={'Serhii Kryvenko'} />
         <h1 className={styles.title}>
           <a href="https://docs.google.com/document/d/17K-lX9M1hY1Wzbnh32mCWglPe17Ginx_/edit?usp=sharing&ouid=114415959102331654958&rtpof=true&sd=true">Serhii Kryvenko's CV</a>
@@ -26,7 +26,8 @@ export default function Home() {
 
         <p className={styles.description}>
           My objective is to obtain a Software Engineer position.
-          <br/> Where my technical and communication skills will contribute to the success of your department and my personal growth.
+          <br/> Where my technical and communication skills will contribute 
+          <br/>to the success of your department and my personal growth.
           <br/>Interested in becoming a professional in IT-world.
         </p>
 
