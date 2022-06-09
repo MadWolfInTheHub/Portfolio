@@ -5,7 +5,7 @@ import Link from 'next/link'
 import user from '../usersData/user'
 import Block from '../components/Block'
 import ProfileHeader from '../components/ProfileHeader'
-import ContactInfo from '../components/ContactInfo'
+import Footer from '../components/Fotter'
 
 export async function getStaticProps() {
   const userInfo = user;
@@ -51,7 +51,6 @@ export default function Home({ userInfo }) {
             </div>
           </Link>
         </nav>
-
         <div className={styles.grid}>
         {
           portfolio.map(el => (
@@ -60,14 +59,7 @@ export default function Home({ userInfo }) {
         }
         </div>
       </main>
-
-      <footer className={styles.footer}>
-        {
-          contactInfo.map(el => (
-            <ContactInfo contactInfo={el}/>
-          ))
-        }
-      </footer>
+      <Footer contactInfo={contactInfo}/> 
     </div>
   )
 }

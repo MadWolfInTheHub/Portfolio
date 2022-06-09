@@ -1,7 +1,44 @@
+import Image from 'next/image'
+import user from '../../usersData/user'
+import styles from '../../styles/Home.module.css'
 import AdditionalInfo from "../../components/AdditionalInfo"
+import Footer from '../../components/Fotter'
+import ProfileHeader from '../../components/ProfileHeader'
+import Link from 'next/link'
 
 export default function Skils () {
-  return (
-    <AdditionalInfo info={'education'}></AdditionalInfo>
+  return(
+    <>
+      <div className={styles.main}>
+        <ProfileHeader userInfo={user}/>
+        <div className={styles.grid}>
+        <nav className={styles.navigation}>
+          <Link href={`/skils`}>
+            <div>
+              <i className="fa-solid fa-gears"/> 
+              My skills
+            </div>
+          </Link>
+
+          <Link href={`/`}>
+            <div>
+              <i className="fa-solid fa-user-graduate"/> 
+              Portfolio
+            </div>
+          </Link>
+
+          <Link href={`/work_experience`}>
+            <div>
+              <i className="fa-solid fa-briefcase"/> 
+              My work experiences
+            </div>
+          </Link>
+        </nav>
+          <Image src='/images/education.gif' width={300} height={200}/>
+          <AdditionalInfo info={'education'}></AdditionalInfo>
+        </div>
+      </div>
+        <Footer contactInfo={user.contactInfo}/> 
+    </>
   )
 }

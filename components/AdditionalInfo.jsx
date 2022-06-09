@@ -7,6 +7,8 @@ export default function AdditionalInfo(info) {
       additionalInfo = user.skills;
       return (
         <ul>
+          <h2>My tech skills</h2>
+        
           {
             additionalInfo.map(el => (
               <li>{el}</li>

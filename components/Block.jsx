@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Block({userData})  {
   const { link, description, title, image } = userData;
-  return (  
+  return (
     <a href={link} className={styles.card}>
       <h2>{title} &rarr;</h2>
       {description !== '' ?
@@ -22,7 +22,6 @@ export default function Block({userData})  {
           alt={`${image.width}`}
         />
       }
-
     </a>
   )
 }
