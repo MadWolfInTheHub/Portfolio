@@ -55,6 +55,7 @@
   margin: 4rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
+  max-width: 800px;
 }
 
 .code {
@@ -111,9 +112,22 @@
 }
 
 .logo {
-  height: 1em;
-  font-size: 3em;
+  height: 1rem;
+  font-size: 2rem;
   margin-left: 0.5rem;
+  margin-right: 10px;
+  color: #000;
+}
+
+.logo_text {
+  text-align: center;
+  color: #000;
+}
+
+.navigation {
+  display: flex;
+  width: 800px;
+  justify-content: space-between;
 }
 
 @media (max-width: 600px) {
