@@ -51,6 +51,7 @@ export default function Home({ userInfo }) {
             </div>
           </Link>
         </nav>
+        
         <div className={styles.grid}>
         {
           portfolio.map(el => (

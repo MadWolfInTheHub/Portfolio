@@ -20,17 +20,17 @@ export default function Skils () {
             </div>
           </Link>
 
-          <Link href={`/`}>
+          <Link href={`/education`}>
             <div>
               <i className="fa-solid fa-user-graduate"/> 
-              Portfolio
+              Education
             </div>
           </Link>
 
-          <Link href={`/work_experience`}>
+          <Link href={`/`}>
             <div>
               <i className="fa-solid fa-briefcase"/> 
-              My work experiences
+              Portfolio
             </div>
           </Link>
         </nav>
