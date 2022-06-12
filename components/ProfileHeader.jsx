@@ -12,11 +12,11 @@ export default function ProfileHeader({ userInfo }) {
           className={utilStyles.borderCircle}
           height={288}
           width={200}
-          alt={`${name}`} />
+          alt={`${name}`} 
+        />
         <h1 className={styles.title}>
           <a href={`${CV}`}>{`${name}`}'s CV</a>
         </h1>
-
         <p className={styles.description} >
           {`${objective}`}
         </p>

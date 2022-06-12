@@ -65,7 +65,7 @@ const user = {
       name: 'skills_main.png',
       src: '/images/skills_main.gif',
     },
-    objective: 'I\'ve gained great live experience by living in different countries. I have 1+ years of experience in Front-end and waiting to get even more in your company!',
+    objective: 'I\'m eager to improve my skills in Front-end development and to learn more from the best programmers in IT world. I think there is no limit of things to learn.',
   },
   portfolio: [
     {
