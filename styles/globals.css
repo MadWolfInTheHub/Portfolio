@@ -12,6 +12,10 @@ a {
   text-decoration: none;
 }
 
+i {
+  margin-right: 10px;
+}
+
 * {
   box-sizing: border-box;
 }

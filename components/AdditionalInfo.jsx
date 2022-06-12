@@ -16,10 +16,8 @@ export default function AdditionalInfo(info) {
           }
         </ul>
       );
-
     case 'education':
       additionalInfo = user.education;
-      console.log(additionalInfo)
       return (
         <table>
           <thead>
@@ -40,7 +38,6 @@ export default function AdditionalInfo(info) {
            </tbody>
         </table>
       );
-      
     case 'experience':
       additionalInfo = user.experience;
       return (
@@ -78,7 +75,6 @@ export default function AdditionalInfo(info) {
            </tbody>
         </table>
       );
-      
     default:
       alert('Log in Please!');
   };

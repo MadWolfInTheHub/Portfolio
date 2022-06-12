@@ -18,6 +18,13 @@ const user = {
       year: '2010 - 2015',
     },                     
   ],
+  education_page: {
+    mainPhoto: {
+      name: 'education_main.png',
+      src: "/images/secondary_pic.webp",
+    },
+    objective: 'In the shortest term I want to start learning Java. My plan is to become a fullstack developer in 1-2 years and learn blockchaine technologies after to be a part of WEB 3.0',
+  },
   experience: [
     {
       position: 'Front-end developer',
@@ -36,6 +43,13 @@ const user = {
       usedTechologies: 'React, Redux, Next.js, HTML, CSS, Sass, BEM, REST API, React-router-dom, Webpack, Babel, Trello, Eslint, Slack, Figma, VSCode, GitHub',
     }
   ],
+  experience_page: {
+    mainPhoto: {
+      name: 'experiense_main.png',
+      src: '/images/experiense_main.gif',
+    },
+    objective: 'I\'ve gained great live experience by living in different countries. I have 1+ years of experience in Front-end and waiting to get even more in your company!',
+  },
   CV: 'https://docs.google.com/document/d/17K-lX9M1hY1Wzbnh32mCWglPe17Ginx_/edit?usp=sharing&ouid=114415959102331654958&rtpof=true&sd=true',
   skills: [
     'JavaScript (ES6+)',
@@ -46,6 +60,13 @@ const user = {
     'HTTP protocol, REST API',
     'Tools: VSCode, Git, npm, Babel, Webpack',
   ],
+  skills_page: {
+    mainPhoto: {
+      name: 'skills_main.png',
+      src: '/images/skills_main.gif',
+    },
+    objective: 'I\'ve gained great live experience by living in different countries. I have 1+ years of experience in Front-end and waiting to get even more in your company!',
+  },
   portfolio: [
     {
       title: 'Airport on React-Redux Source Code ',
