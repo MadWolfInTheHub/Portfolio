@@ -1,5 +1,5 @@
 import user from "../usersData/user";
-import additional from '../styles/additinalInfo.module.scss';
+import additional from '../styles/additinalInfo.module.css';
 
 export default function AdditionalInfo(info) {
   const randomKey = () => Math.random(); 

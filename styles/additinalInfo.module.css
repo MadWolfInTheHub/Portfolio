@@ -1,0 +1,21 @@
+.table {
+  font-size: 1.25rem;
+
+}
+.table thead tr th{
+  padding: 1rem;
+}
+
+.table tbody tr td{
+  padding: 0.5rem;
+
+}
+
+.list {
+  font-size: 1.25rem;
+  max-width: 500px;
+}
+
+.list li {
+  padding: 5px;
+}

@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import nav from '../styles/navigation.module.scss'
+import nav from '../styles/navigation.module.css'
 import PortfolioLink from './PortfolioLink'
 
 export default function Navigation({ currentPage }) {

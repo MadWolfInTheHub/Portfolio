@@ -10,8 +10,9 @@
 .link {
   width: 150px;
   
-  &:hover {
-    color: #103259;
-    text-decoration: underline;
-  }
+}
+
+.link:hover {
+  color: #103259;
+  text-decoration: underline;
 }
