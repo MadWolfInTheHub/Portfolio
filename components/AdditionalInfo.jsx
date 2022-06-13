@@ -42,8 +42,6 @@ export default function AdditionalInfo(info) {
       );
     case 'experience':
       additionalInfo = user.experience;
-      console.log(additionalInfo)
-
       return (
         <table className={additional.table}>
           <thead>
