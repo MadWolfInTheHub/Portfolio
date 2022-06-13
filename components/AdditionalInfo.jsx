@@ -2,6 +2,7 @@ import user from "../usersData/user";
 import additional from '../styles/additinalInfo.module.scss';
 
 export default function AdditionalInfo(info) {
+  const randomKey = () => Math.random(); 
   let additionalInfo;
   switch (info.info) {
     case 'skills':
@@ -12,7 +13,7 @@ export default function AdditionalInfo(info) {
         
           {
             additionalInfo.map(el => (
-              <li>{el}</li>
+              <li key={randomKey()}>{el}</li>
             ))
           }
         </ul>
@@ -30,7 +31,7 @@ export default function AdditionalInfo(info) {
           <tbody>
             {
               additionalInfo.map(el => (
-                <tr>
+                <tr key={randomKey()}>
                   <td>{el.school}</td>
                   <td>{el.year}</td>
                 </tr>
@@ -41,6 +42,8 @@ export default function AdditionalInfo(info) {
       );
     case 'experience':
       additionalInfo = user.experience;
+      console.log(additionalInfo)
+
       return (
         <table className={additional.table}>
           <thead>
@@ -48,34 +51,32 @@ export default function AdditionalInfo(info) {
              <th>Work experience</th>
             </tr>
           </thead>
-           <tbody>
             {
               additionalInfo.map(el => (
-                <>
-                  <tr>
-                    <td>Position</td>
-                    <td>{el.position}</td>
-                  </tr>
-                  <tr>
-                      <td>Company</td>
-                      <td>{el.company}</td>
-                  </tr>
-                  <tr>
-                      <td>Work Period</td>
-                      <td>{el.workPeriod}</td>
-                  </tr>
-                  <tr>
-                      <td>Responsibilities</td>
-                      <td>{el.responsibilities}</td>
-                  </tr>
-                  <tr>
-                      <td>UsedTechologies</td>
-                      <td>{el.usedTechologies}</td>
-                  </tr>
-                </>
+              <tbody key={randomKey()}>
+                <tr>
+                  <td>Position</td>
+                  <td>{el.position}</td>
+                </tr>
+                <tr>
+                    <td>Company</td>
+                    <td>{el.company}</td>
+                </tr>
+                <tr>
+                    <td>Work Period</td>
+                    <td>{el.workPeriod}</td>
+                </tr>
+                <tr>
+                    <td>Responsibilities</td>
+                    <td>{el.responsibilities}</td>
+                </tr>
+                <tr>
+                    <td>UsedTechologies</td>
+                    <td>{el.usedTechologies}</td>
+                </tr>
+              </tbody>
               ))
             }
-           </tbody>
         </table>
       );
     default:

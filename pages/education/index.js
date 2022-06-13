@@ -15,7 +15,7 @@ export default function Skils () {
       <div className={styles.main}>
         <SecondaryHeader userInfo={user.education_page}/>
         <div className={styles.grid}>
-          <Image src='/images/education_main.png' width={300} height={200}/>
+          <Image src='/images/education_main.png' width={300} height={200} alt={'education_main'}/>
           <AdditionalInfo info={'education'}></AdditionalInfo>
         </div>
       </div>

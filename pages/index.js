@@ -17,6 +17,8 @@ export async function getStaticProps() {
 
 export default function Home({ userInfo }) {
   const { contactInfo, portfolio } = userInfo;
+  const randomKey = () => Math.random(); 
+  
   return (
     <div className={styles.container}>
       <Layuot info="portfolio"/>
@@ -26,7 +28,7 @@ export default function Home({ userInfo }) {
         <div className={styles.grid}>
         {
           portfolio.map(el => (
-            <Block userData={el}/>
+            <Block key={randomKey()} userData={el}/>
           ))
         }
         </div>

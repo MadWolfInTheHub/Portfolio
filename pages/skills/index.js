@@ -15,7 +15,7 @@ export default function Skils () {
       <div className={styles.main}>
         <SecondaryHeader userInfo={user.skills_page}/>
         <div className={styles.grid}>
-          <Image src='/images/skills_secondary.gif' width={300} height={220}/>
+          <Image src='/images/skills_secondary.gif' width={300} height={220} alt={'skills_secondary'}/>
           <AdditionalInfo info={'skills'}></AdditionalInfo>
         </div>
       </div>
