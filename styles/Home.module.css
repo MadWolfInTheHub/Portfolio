@@ -29,6 +29,8 @@
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
+  height: 1.5rem;
+  font-size: 1rem;
 }
 
 .footer a {
@@ -132,12 +134,6 @@
 .logo_text {
   text-align: center;
   color: #000;
-}
-
-.navigation {
-  display: flex;
-  padding: 20px;
-  justify-content: space-between;
 }
 
 @media (max-width: 600px) {

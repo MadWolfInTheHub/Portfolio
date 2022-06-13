@@ -1,4 +1,5 @@
 import user from "../usersData/user";
+import additional from '../styles/additinalInfo.module.scss';
 
 export default function AdditionalInfo(info) {
   let additionalInfo;
@@ -6,7 +7,7 @@ export default function AdditionalInfo(info) {
     case 'skills':
       additionalInfo = user.skills;
       return (
-        <ul>
+        <ul className={additional.list}>
           <h2>My tech skills</h2>
         
           {
@@ -19,14 +20,14 @@ export default function AdditionalInfo(info) {
     case 'education':
       additionalInfo = user.education;
       return (
-        <table>
-          <thead>
+        <table className={additional.table}>
+          <thead >
             <tr>
               <th>School</th>
               <th>Period</th>
             </tr>
-           </thead>
-           <tbody>
+          </thead>
+          <tbody>
             {
               additionalInfo.map(el => (
                 <tr>
@@ -35,16 +36,18 @@ export default function AdditionalInfo(info) {
                 </tr>
               ))
             }
-           </tbody>
+          </tbody>
         </table>
       );
     case 'experience':
       additionalInfo = user.experience;
       return (
-        <table>
+        <table className={additional.table}>
           <thead>
-              <th>Work experience</th>
-           </thead>
+            <tr>
+             <th>Work experience</th>
+            </tr>
+          </thead>
            <tbody>
             {
               additionalInfo.map(el => (

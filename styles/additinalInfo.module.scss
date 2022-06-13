@@ -1,0 +1,24 @@
+.table {
+  font-size: 1.25rem;
+
+  &thead, tr, th {
+    padding: 1rem;
+  }
+
+  &tbody, tr, td {
+    padding: 0.5rem;
+
+    &:first-child {
+      padding-right: 1rem;
+    }
+  }
+}
+
+.list {
+  font-size: 1.25rem;
+  max-width: 500px;
+  
+  &ul, li {
+    padding: 5px;
+  }
+}

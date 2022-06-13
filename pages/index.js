@@ -20,7 +20,7 @@ export default function Home({ userInfo }) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Serhii's CV</title>
+        <title>Serhii's Portfolio</title>
         <meta name="description" content="My CV" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

@@ -1,16 +1,16 @@
 import Link from 'next/link'
-import styles from '../styles/Home.module.css'
+import nav from '../styles/navigation.module.scss'
 import PortfolioLink from './PortfolioLink'
 
 export default function Navigation({ currentPage }) {
   return (
-    <nav className={styles.navigation}>
+    <nav className={nav.navigation}>
     {
       currentPage === "skills" ? 
       <PortfolioLink/>
       :
       <Link href={`/skills`}>
-        <div>
+        <div className={nav.link}>
           <i className="fa-solid fa-gears"/> 
           My tech skills
         </div>
@@ -21,7 +21,7 @@ export default function Navigation({ currentPage }) {
       <PortfolioLink/>
       :
       <Link href={`/education`}>
-        <div>
+        <div className={nav.link}>
           <i className="fa-solid fa-user-graduate"/> 
           My Education
         </div>
@@ -32,7 +32,7 @@ export default function Navigation({ currentPage }) {
       <PortfolioLink/>
       :      
       <Link href={`/work_experience`}>
-        <div>
+        <div className={nav.link}>
           <i className="fa-solid fa-briefcase"/> 
           My experience
         </div>

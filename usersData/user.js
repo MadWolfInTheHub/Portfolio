@@ -6,7 +6,7 @@ const user = {
   },
   education: [
     {
-      school: 'Gromcode online University (full time) ',
+      school: 'Gromcode',
       year: '2021 - 2022',
     },
     {
@@ -14,7 +14,7 @@ const user = {
       year: '2017',
     },
     {
-      school: "'National Transport University' Kiev ",
+      school: "National Transport University Kiev ",
       year: '2010 - 2015',
     },                     
   ],
