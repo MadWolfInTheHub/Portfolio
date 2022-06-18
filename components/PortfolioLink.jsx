@@ -6,7 +6,7 @@ export default function PortfolioLink() {
     <Link href={`/`}>
       <div className={nav.link}>
         <i className="fa-solid fa-diagram-project"></i>
-        My Portoflio
+        Portoflio
       </div>
     </Link>
   )

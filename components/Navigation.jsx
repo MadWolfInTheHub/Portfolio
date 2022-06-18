@@ -12,7 +12,7 @@ export default function Navigation({ currentPage }) {
       <Link href={`/skills`}>
         <div className={nav.link}>
           <i className="fa-solid fa-gears"/> 
-          My tech skills
+          Tech skills
         </div>
       </Link>
     }
@@ -23,7 +23,7 @@ export default function Navigation({ currentPage }) {
       <Link href={`/education`}>
         <div className={nav.link}>
           <i className="fa-solid fa-user-graduate"/> 
-          My Education
+          Education
         </div>
       </Link>
     }
@@ -34,7 +34,7 @@ export default function Navigation({ currentPage }) {
       <Link href={`/work_experience`}>
         <div className={nav.link}>
           <i className="fa-solid fa-briefcase"/> 
-          My experience
+          Experience
         </div>
       </Link>
     }

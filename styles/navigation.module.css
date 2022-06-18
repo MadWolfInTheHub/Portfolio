@@ -9,10 +9,20 @@
 
 .link {
   width: 150px;
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .link:hover {
   color: #103259;
   text-decoration: underline;
+}
+
+
+@media (max-width: 600px) {
+  .link {
+    flex-direction: column;
+  }
 }

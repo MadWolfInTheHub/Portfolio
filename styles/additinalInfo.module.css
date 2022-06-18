@@ -19,3 +19,17 @@
 .list li {
   padding: 5px;
 }
+
+@media (max-width: 600px) {
+  .table {
+  font-size: 0.8rem;
+  }
+
+  .list {
+    font-size: 1rem;
+  }
+
+  .list li {
+    padding: 2px;
+  }
+}

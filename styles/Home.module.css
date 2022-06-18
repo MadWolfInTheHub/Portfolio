@@ -141,4 +141,13 @@
     width: 100%;
     flex-direction: column;
   }
+
+  .description {
+  font-size: 1rem;
+
+  }
+
+  .footer div {
+    display: none;
+  }
 }
