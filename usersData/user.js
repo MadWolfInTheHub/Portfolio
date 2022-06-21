@@ -76,7 +76,7 @@ const user = {
     },
     {
       title: 'Airport on React-Redux App ',
-      link: 'https://glowing-naiad-e7dc88.netlify.app/',
+      link: 'https://fluffy-bubblegum-d1517f.netlify.app/',
       description: '',
       image: {
         src: "/images/airport_app.png",
