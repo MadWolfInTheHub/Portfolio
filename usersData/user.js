@@ -23,7 +23,7 @@ const user = {
       name: 'education_main.png',
       src: "/images/secondary_pic.webp",
     },
-    objective: 'In the shortest term I want to start learning Java. My plan is to become a fullstack developer in 1-2 years and learn blockchaine technologies after to be a part of WEB 3.0',
+    objective: 'In the shortest term I want to start learning Java. My plan is to become a fullstack developer in 1-2 years and learn blockchain technologies after to be a part of WEB 3.0',
   },
   experience: [
     {
@@ -40,7 +40,7 @@ const user = {
         'Responsive and multi-device layouts',
         'Following Scrum methodology',
       ],
-      usedTechologies: 'React, Redux, Next.js, HTML, CSS, Sass, BEM, REST API, React-router-dom, Webpack, Babel, Trello, Eslint, Slack, Figma, VSCode, GitHub',
+      usedTechnologies: 'Typescript, JavaScript, React, Redux, Next.js, HTML, CSS, Sass, BEM, REST API, React-router-dom, Webpack, Babel, Trello, Eslint, Slack, Figma, VSCode, GitHub',
     }
   ],
   experience_page: {
@@ -53,6 +53,7 @@ const user = {
   CV: 'https://docs.google.com/document/d/17K-lX9M1hY1Wzbnh32mCWglPe17Ginx_/edit?usp=sharing&ouid=114415959102331654958&rtpof=true&sd=true',
   skills: [
     'JavaScript (ES6+)',
+    'Typescript',
     'React (Router, hooks, HOC etc), Redux, Next.js',
     'Testing Framework by Jest, ESLint, Prettier',
     'HTML5 / CSS3, Sass',
@@ -68,6 +69,36 @@ const user = {
     objective: 'I\'m eager to improve my skills in Front-end development and to learn more from the best programmers in IT world. I think there is no limit of things to learn.',
   },
   portfolio: [
+    {
+      title: 'E-commerce shop on Typescript/React/Redux Source Code ',
+      link: 'https://github.com/MadWolfInTheHub/KRVN-ecommerce-website',
+      description: 'a website fully designed and written by myself, mockApi data were created by myself as well.',
+       
+    },
+    {
+      title: 'E-commerce shop on Typescript/React/Redux App ',
+      link: 'https://harmonious-meerkat-527615.netlify.app/',
+      description: '',
+      image: {
+        src: "/images/KRVN_shop.png",
+        alt: 'E-commerce shop',
+      }
+    },
+    {
+      title: 'Blasting ball game (Canvas) on Javascript Source Code ',
+      link: 'https://github.com/MadWolfInTheHub/Blasting-ball-game',
+      description: 'Try to beat my score, it’s 600 points. Here I was working with canvas.',
+       
+    },
+    {
+      title: 'Blasting ball game (Canvas) on Javascript App ',
+      link: 'https://coruscating-valkyrie-82b953.netlify.app/',
+      description: '',
+      image: {
+        src: "/images/BlastingBallGame.png",
+        alt: 'Blasting ball game',
+      }
+    },
     {
       title: 'Airport on React-Redux Source Code ',
       link: 'https://github.com/MadWolfInTheHub/Airport_board',
@@ -96,6 +127,21 @@ const user = {
       image: {
         src: "/images/calandar_on_react.png",
         alt: 'Calendar on React App',
+      }
+    },
+    {
+      title: 'Currency converter on React Source Code ',
+      link: 'https://github.com/MadWolfInTheHub/currencyConverter',
+      description: 'This app is connected to open Api https://api.exchangerate-api.com/v4/latest.',
+       
+    },
+    {
+      title: 'Currency converter on React ',
+      link: 'https://endearing-cobbler-a3a525.netlify.app/',
+      description: '',
+      image: {
+        src: "/images/currency-converter.png",
+        alt: 'Currency converter',
       }
     },
     {

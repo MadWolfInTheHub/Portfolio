@@ -69,8 +69,8 @@ export default function AdditionalInfo(info) {
                     <td>{el.responsibilities}</td>
                 </tr>
                 <tr>
-                    <td>UsedTechologies</td>
-                    <td>{el.usedTechologies}</td>
+                    <td>Used Technologies</td>
+                    <td>{el.usedTechnologies}</td>
                 </tr>
               </tbody>
               ))
