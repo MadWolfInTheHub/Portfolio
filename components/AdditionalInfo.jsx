@@ -66,7 +66,11 @@ export default function AdditionalInfo(info) {
                 </tr>
                 <tr>
                     <td>Responsibilities</td>
-                    <td>{el.responsibilities}</td>
+                    <td>{el.responsibilities.map(
+                      (el) => (
+                        <ul style={{padding: 0}} key={randomKey()}>{el}</ul>
+                      ) 
+                    )}</td>
                 </tr>
                 <tr>
                     <td>Used Technologies</td>

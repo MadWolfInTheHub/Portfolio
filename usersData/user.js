@@ -1,6 +1,6 @@
 const user = {
   name: 'Serhii Kryvenko',
-  objective: 'My objective is to obtain a Frontend developer position. Where my technical and communication skills will contribute to the success of your department and my personal growth. Interested in becoming a professional in IT-world.',
+  objective: 'My objective is to obtain a Front-end developer position. Where my technical and communication skills will contribute to the success of your department and my personal growth. Interested in becoming a professional in IT-world.',
   profilePhoto: {
     src: "/images/profile.jpg",
   },
@@ -29,18 +29,18 @@ const user = {
     {
       position: 'Front-end developer',
       company: 'Softemy',
-      workPeriod: 'October 2021 - Present',
+      workPeriod: 'April 2022 - Present',
       responsibilities: [
-        'Writing/debugging/improving code on the daily basis',
-        'Moving a legacy project from JQuery to the modern stack with React',
-        'Teamwork in a scrum environment, we shared tasks between group members and implemented them in several branches on Github',
-        'Completing tasks with the usage of React/Redux',
-        'Code review, refactoring',
-        'Conducting client demo',
-        'Responsive and multi-device layouts',
-        'Following Scrum methodology',
+        "Writing/debugging/improving code on the daily basis.",
+        "Responsive and multi-device layouts.",
+        "Moving a legacy project from JQuery to the modern stack with React.",
+        "Assist the development team with all aspects of software design and coding.",
+        "Attend design meetings, write basic code, fix bugs, and assist the Development Manager in all design-related tasks.",
+        "Developing and maintaining the user interface.",
+        "Optimizing the user experience using HTML, JavaScript, MUI and Styled-components to bring concept to life.",
+        "Creating routes, layout components, new pages, and features (e.g. filters on tabs, favorites list etc.).",
       ],
-      usedTechnologies: 'Typescript, JavaScript, React, Redux, Next.js, HTML, CSS, Sass, BEM, REST API, React-router-dom, Webpack, Babel, Trello, Eslint, Slack, Figma, VSCode, GitHub',
+      usedTechnologies: 'Typescript, JavaScript, React, React-router-dom, Next.js, Redux, REST API, HTML, CSS, Sass, BEM, Webpack, Babel, Trello, Eslint, Slack, Figma, VSCode, GitHub',
     }
   ],
   experience_page: {
@@ -48,7 +48,7 @@ const user = {
       name: 'experiense_main.png',
       src: '/images/experiense_main.gif',
     },
-    objective: 'I\'ve gained great live experience by living in different countries. I have 1+ years of experience in Front-end and waiting to get even more in your company!',
+    objective: 'I\'ve gained great live experience by living in different countries. I have 1 years of experience in Front-end and waiting to get even more in your company!',
   },
   CV: 'https://docs.google.com/document/d/17K-lX9M1hY1Wzbnh32mCWglPe17Ginx_/edit?usp=sharing&ouid=114415959102331654958&rtpof=true&sd=true',
   skills: [
@@ -82,6 +82,36 @@ const user = {
       image: {
         src: "/images/KRVN_shop.png",
         alt: 'E-commerce shop',
+      }
+    },
+    {
+      title: 'Galaxy generator on Three.js Source Code ',
+      link: 'https://github.com/MadWolfInTheHub/Three.js/tree/main/19-galaxy-generator',
+      description: 'That is an example of 3D galaxy generator that I did while learning Three.js ',
+       
+    },
+    {
+      title: 'Galaxy generator on Three.js ',
+      link: 'https://stunning-daifuku-00b325.netlify.app/',
+      description: '',
+      image: {
+        src: "/images/galaxy.png",
+        alt: 'Galaxy-generator',
+      }
+    },
+    {
+      title: 'Hunted house on Three.js Source Code ',
+      link: 'https://github.com/MadWolfInTheHub/Three.js/tree/main/17-haunted-house',
+      description: 'That is an example of 3D house that I did while learning Three.js ',
+       
+    },
+    {
+      title: 'Hunted house on Three.js ',
+      link: 'https://63b2172382ff7c5fd113a981--quiet-heliotrope-9f8432.netlify.app/',
+      description: '',
+      image: {
+        src: "/images/house.png",
+        alt: 'Hunted-house',
       }
     },
     {
@@ -168,7 +198,7 @@ const user = {
     },
     {
       contactType: 'Linkedin',
-      link: 'https://www.linkedin.com/in/serhii-kryvenko-b6099a74/',
+      link: 'https://www.linkedin.com/in/serhii-kryvenko',
       icon: 'fa-brands fa-linkedin',
     },
     {
@@ -178,7 +208,7 @@ const user = {
     },
     {
       contactType: 'Phone number',
-      link: 'tel:+8615698325581',
+      link: 'tel:+12362343917',
       icon: 'fa-solid fa-square-phone',
     },
   ]
