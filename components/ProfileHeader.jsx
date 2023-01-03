@@ -10,8 +10,8 @@ export default function ProfileHeader({ userInfo }) {
           priority
           src={`${profilePhoto.src}`}
           className={utilStyles.borderCircle}
-          height={288}
-          width={200}
+          height={300}
+          width={300}
           alt={`${name}`} 
         />
         <h1 className={styles.title}>
