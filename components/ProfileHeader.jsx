@@ -6,14 +6,14 @@ export default function ProfileHeader({ userInfo }) {
   const { name, objective, profilePhoto, CV } = userInfo;
   return (
     <>
-        <Image 
+        {/* <Image 
           priority
           src={`${profilePhoto.src}`}
           className={utilStyles.borderCircle}
           height={300}
           width={300}
           alt={`${name}`} 
-        />
+        /> */}
         <h1 className={styles.title}>
           <a href={`${CV}`}>{`${name}`}'s CV</a>
         </h1>
