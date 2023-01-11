@@ -52,13 +52,12 @@ const user = {
   },
   CV: 'https://docs.google.com/document/d/17K-lX9M1hY1Wzbnh32mCWglPe17Ginx_/edit?usp=sharing&ouid=114415959102331654958&rtpof=true&sd=true',
   skills: [
-    'JavaScript (ES6+)',
-    'Typescript',
-    'React (Router, hooks, HOC etc), Redux, Next.js',
+    'JavaScript (ES6+), Typescript, Rest API, React, React-router, Jquery, React native, Redux',
+    'Material UI, Styled components, CSS, SASS',
+    'Node.js, Next.js, THREE.js, MongoDB, SQL ',
     'Testing Framework by Jest, ESLint, Prettier',
-    'HTML5 / CSS3, Sass',
-    'BEM Methodology, Responsive Design & Multi-device layouts',                                
-    'HTTP protocol, REST API',
+    'Agile, Scrum, Jira, ',                                
+    'Github, Webpack, Figma, Canvas, Postman, Photoshop',
     'Tools: VSCode, Git, npm, Babel, Webpack',
   ],
   skills_page: {
