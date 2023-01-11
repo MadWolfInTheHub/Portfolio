@@ -1,6 +1,6 @@
 const user = {
   name: 'Serhii Kryvenko',
-  objective: 'My objective is to obtain a Front-end developer position. Where my technical and communication skills will contribute to the success of your department and my personal growth. Interested in becoming a professional in IT-world.',
+  objective: 'My objective is to obtain a Web developer position. Where my technical and communication skills will contribute to the success of your department and my personal growth. Highly motivated to learn new things in IT-world.',
   profilePhoto: {
     src: "/images/profilegif.gif",
   },
